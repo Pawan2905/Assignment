@@ -28,6 +28,27 @@ We receive the raw data every day at 23:30 CET. We need to process the data and 
 2326: The last part indicates the size of the object returned to the client, not including the response headers. If no content was returned to the client, this value will be "-". To log "0" for no content, use %B instead.
 
 
+### Solution
+
+- RAW DATA ----> ORACLE DB ----> VISUALIZATION TOOL
+
+- Here we have used raw data (log files)
+Step1. Aggregate the raw data
+Step2. Extract the required key elements from the raw data
+Step3. Transform the it into required format for such as date ,code etc
+Step4. Load the data and find the required information from the data
+
+#### Packages used 
+Pandas,Numpy ,re,datetime
+
+#### To run the scripts
+
+Folder structure:
+TDK_Assignment
+    --> scr : contains srcipt for data preprocess and result (data_preprocess.py and result.py)
+    -->logs : Raw data
+    -->Output : preprocess data ,output with answer of all the question
+    
 
 
 
