@@ -33,10 +33,10 @@ We receive the raw data every day at 23:30 CET. We need to process the data and 
 - RAW DATA ----> ORACLE DB ----> VISUALIZATION TOOL
 
 - Here we have used raw data (log files)
-Step1. Aggregate the raw data
-Step2. Extract the required key elements from the raw data
-Step3. Transform the it into required format for such as date ,code etc
-Step4. Load the data and find the required information from the data
+    - Step1. Aggregate the raw data
+    - Step2. Extract the required key elements from the raw data
+    - Step3. Transform the it into required format for such as date ,code etc
+    - Step4. Load the data and find the required information from the data
 
 #### Packages used 
 Pandas,Numpy ,re,datetime
